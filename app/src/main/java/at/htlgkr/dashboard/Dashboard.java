@@ -11,9 +11,10 @@ import android.view.ViewGroup;
 import at.htlgkr.dashboard.databinding.FragmentDashboardBinding;
 
 
-public class Dashboard extends Fragment {
+public class Dashboard extends Fragment implements IDashboard {
 
     private FragmentDashboardBinding binding;
+
 
     public Dashboard() {
         // Required empty public constructor
@@ -33,5 +34,27 @@ public class Dashboard extends Fragment {
         // Inflate the layout for this fragment
         binding = FragmentDashboardBinding.inflate(inflater,container,false);
         return binding.getRoot();
+
+    }
+
+    @Override
+    public String displayableTemperature() {
+        
+        return "";
+    }
+
+    @Override
+    public String displayablePressure() {
+        return "";
+    }
+
+    @Override
+    public String displayableSpeed() {
+        return "";
+    }
+
+    @Override
+    public String displayableTime() {
+        return "";
     }
 }
