@@ -39,7 +39,7 @@ public class Dashboard extends Fragment implements IDashboard {
 
     @Override
     public String displayableTemperature() {
-        
+
         return "";
     }
 
