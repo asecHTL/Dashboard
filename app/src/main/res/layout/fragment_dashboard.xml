@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard">
+    tools:context=".DashboardFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -111,19 +111,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tv_Temp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="155dp"
         android:layout_marginEnd="14dp"
-        android:text="TextView"
+        android:text="Temp"
         app:layout_constraintEnd_toStartOf="@+id/bt_01_Right"
         app:layout_constraintStart_toEndOf="@+id/bt_01_Left"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tv_Time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
@@ -135,25 +135,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tv_Speed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="385dp"
         android:layout_marginEnd="14dp"
-        android:text="TextView"
+        android:text="Speed"
         app:layout_constraintEnd_toStartOf="@+id/bt_04_Right"
         app:layout_constraintStart_toEndOf="@+id/bt_04_Left"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tv_Preassure"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="155dp"
         android:layout_marginEnd="14dp"
-        android:text="TextView"
+        android:text="Druck"
         app:layout_constraintEnd_toStartOf="@+id/bt_02_Right"
         app:layout_constraintStart_toEndOf="@+id/bt_02_Left"
         app:layout_constraintTop_toTopOf="parent" />

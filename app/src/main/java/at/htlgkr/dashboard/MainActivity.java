@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.add(R.id.main,new Dashboard(),"Dashboard");
+        fragmentTransaction.add(R.id.main,new DashboardFragment(),"Dashboard");
         fragmentTransaction.commit();
     }
 }
